@@ -59,5 +59,5 @@ $cd = @{
     )
 }
 CreatingTeam -ConfigurationData $cd
-Start-DscConfiguration CreatingTeam -force -Verbose -Wait
+
 
