@@ -39,13 +39,5 @@ $cd = @{
             PSDscAllowPlainTextPassword = $true
         }
     )
-
-NonNodeData = @(
-        @{
-            # API Token for the Teams SDN Provider for Meeting Broadcast
-            SdnApiToken = "**********"
-
-        }
-    )
 }
 SharePoint  -ConfigurationData $cd
